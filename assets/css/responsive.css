@@ -1,0 +1,234 @@
+
+@media all and (max-width: 1200px){
+	.button{
+    	padding:1rem;
+    }
+    /*Service Area*/
+	.single-service p{
+ 	width:100%;
+     }
+   /*Member Area*/
+   .member-text h3{
+     font-size:20px;
+    }
+    .member-text p{
+    	width:100%;
+    	margin:1rem auto;
+    }
+    .member-link a i{
+    	width:16%;
+    }
+    /*About Area*/
+    .about-text p{
+    	width:90%;
+    }
+}
+@media all and (min-width: 991px){
+	.nav{
+		display: flex !important;
+	}
+	}
+@media all and (max-width: 991px){
+	h1{
+		font-size:40px;
+	}
+	.section-padding{
+		padding:3rem 0;
+	}
+	.section-heading p{
+		width:75%;
+	}
+	.section-heading span {
+     	width: 10%;
+  }
+	.button{
+		width:38%;
+	}
+	.button a{
+		font-size:15px;
+	}
+	/*Header Area*/
+	.header{
+		max-width:980px;
+		margin-top:-1rem;
+	}
+	#menu{
+		display:block;
+		z-index:1;
+	}
+	.header .navber {
+	background: rgba(159, 28, 28, 0.48);
+	width: 56%;
+	float: right;
+	margin-top: -2.4rem;
+  }
+	.nav{
+		display: none;
+		padding:1rem;
+	}
+	.header .nav li{
+		padding:.5rem 0;
+	}
+	.header-title{
+		width:100%;
+		padding-top:5rem;
+	}
+	/*Studio*/
+.studio-text h1 {
+	font-size: 22px !important;
+}
+ /*Service Area*/
+ .single-service{
+ 	margin-bottom:3rem;
+ }
+ .single-service h3{
+ 	margin-top:1.5rem;
+ }
+ /*Member Area*/
+  .member-link a i{
+    	width:11%;
+    }
+    /*Portfolio Area*/
+    .portfolio-tabs{
+    	margin:1rem auto;
+    }
+    /*Footer Area*/
+	.footer-area li a {
+		font-size: 18px;
+		padding: .5rem;
+	}
+	   
+}
+@media all and (max-width: 767px){
+	h1{
+		font-size:25px;
+	}
+	h2{
+		font-size:30px;
+	}
+	.section-heading p {
+	   width: 100%;
+    }
+	.section-heading span {
+	width: 15%;
+    }
+    .button {
+	    width: 50%;
+    }
+    /*Header Area*/
+	.header-title{
+		padding-top:3rem;
+	}
+	/*Member Area*/
+	.member-img img {
+	   width: 50%;
+    }
+    .member-link a i {
+	    width: 7%;
+     }
+     /*About Area*/
+     .single-about {
+     	margin: auto;
+		margin-top: 3rem;
+	}
+	.about-img{
+		width:40%;
+	}
+	/*Contact Area*/
+	textarea.form-control {
+	   height: 130px;
+   }
+	/*Footer Area*/
+	.footer-area li a {
+		font-size: 13px !important;
+		padding: .4rem !important;
+    }
+}
+@media all and (max-width: 575px){
+	h1{
+		font-size:18px;
+	}
+	h2{
+		font-size:20px;
+	}
+	p{
+		font-size:15px;
+	}
+	.button {
+	   width: 55%;
+	   margin:auto;
+	   margin-top:2rem;
+	   padding:1rem .5rem;
+    }
+  .section-heading p {
+	 font-size: 15px;
+  }
+  .section-heading span {
+	 width: 20%;
+  }
+   .nav li a {
+	font-size: 15px;
+	padding: .3rem .7rem;
+  }
+   .portfolio-nav li{
+	font-size: 15px;
+	padding: .3rem .5rem;
+  }
+  /*Service Area*/
+  .service {
+	margin-top: 2rem;
+}
+/*Member Area*/
+.single-member {
+	margin: 2rem 0;
+}
+.member-img {
+   margin:0;
+}
+.member-link a i {
+	width: 10%;
+}
+/*Skills Area*/
+.skill{
+	margin:0;
+}
+.single-skill h1 {
+	left: 42%;
+}
+/*About Area*/
+.single-about{
+	flex-direction:column;
+	align-items: center;
+	text-align:center;
+	margin-top:1rem;
+}
+.about-img{
+	margin: 0;
+	margin-bottom:1rem;
+}
+.about-text p{
+	width:100%;
+}
+/*Contact Area*/
+textarea.form-control {
+	height:auto;
+}
+.btn{
+	padding:0;
+}
+/*Footer Area*/
+.copy-right p{
+	font-size:12px;
+}
+}
+@media all and (max-width: 476px){
+	.member-link a i {
+	   width: 11%;
+   }
+	.header-area .button{
+	width: 68%;
+}
+   .portfolio-button .button {
+	width:88%;
+}
+ 	}
